@@ -868,4 +868,54 @@ body {
 .copyright .twitter-link:visited {
   color: #918581;
 }
+
+
+@media only screen and (max-width: 375px) {
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+  .header__logo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 2.6rem;
+    display: none;
+}
+  
+}
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 28%;
+}
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+  .header__logo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 2.6rem;
+    display: none;
+}
+  
+  .search {
+    background-color: #fff;
+    border-radius: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 3rem;
+    margin-left: 1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+}
 /*# sourceMappingURL=main.css.map */
+
