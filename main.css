@@ -870,7 +870,7 @@ body {
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 31.25em) {
   .btn {
     padding: 0.5rem 1rem;
     font-size: 1.5rem;
@@ -885,7 +885,7 @@ body {
   
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 41.25em) {
   html {
     font-size: 28%;
 }
